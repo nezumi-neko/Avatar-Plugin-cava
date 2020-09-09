@@ -1,0 +1,27 @@
+{
+	"modules": { 
+		"cava": {
+			"version": "1.0",
+			"name": "cava",
+			"rules": {
+				"howareyou": ["how * you","fine"]
+			},
+			"askme_question": "Sa va bien, et vous ?|Sa va très bien, et vous ?|Comme si, comme sa et vous ?|Comme d'habitude, et vous ?|Je me sens bien, merci. Et vous ?|Je sens que mes circuit chauffe un peu, mais ça va. Et vous ?",
+			"askme_answer": {
+				"bien": "good",
+				"normal": "good",
+				"comme d'habitude": "good",
+				"ça va": "good",
+				"sa va": "good",
+				"tranquille": "good",
+				"pas très bien": "bad",
+				"pas super": "bad",
+				"sa pe aller": "bad",
+				"pas top": "bad",
+				"bof": "bad"
+			},
+			"askme_repgood": "Je suis contente pour vous.|Bonne nouvelle|cela me fait plaisir",
+			"askme_repbad": "Dommage, j'espère que ça ira mieux demain.|Ah, j'espère que ça ira mieux"
+		}
+	}
+}
